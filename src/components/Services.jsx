@@ -15,7 +15,7 @@ const Services = () => {
   const icon3 = <FaHeartbeat size={35} className=" text-backgroundColor" />;
 
   return (
-    <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5 pt-24 lg:pt-16">
+    <div className="flex flex-col justify-center lg:px-32 px-5 pt-5 lg:pt-5">
       <div className=" flex flex-col items-center lg:flex-row justify-between">
         <div>
           <h1 className=" text-4xl font-semibold text-center lg:text-start">
