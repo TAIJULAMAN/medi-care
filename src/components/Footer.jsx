@@ -80,12 +80,13 @@ const Footer = () => {
           <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
           <nav className=" flex flex-col gap-2">
             <Link to="/" spy={true} smooth={true} duration={500}>
-ward-64,konapara,Dhaka            </Link>
+              ward-64,konapara,Dhaka{" "}
+            </Link>
             <Link to="/" spy={true} smooth={true} duration={500}>
               medi@care.com
             </Link>
             <Link to="/" spy={true} smooth={true} duration={500}>
-                    01234567899
+              01234567899
             </Link>
           </nav>
         </div>
@@ -93,8 +94,8 @@ ward-64,konapara,Dhaka            </Link>
       <div>
         <p className=" text-center py-4">
           @copyright developed by
-          <span className=" text-hoverColor"> Md Shah Aman</span> | All
-          rights reserved
+          <span className=" text-hoverColor"> Craftysoft Ui</span> | All rights
+          reserved
         </p>
       </div>
     </div>

@@ -10,7 +10,7 @@ import img6 from "../assets/img/blog6.jpg";
 
 const Blogs = () => {
   return (
-    <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5 pt-24">
+    <div className=" min-h-screen flex flex-col justify-center md:px-[100px] px-[20px] pt-[40px] md:pt-[80px]">
       <div className=" flex flex-col items-center lg:flex-row justify-between">
         <div>
           <h1 className=" text-4xl font-semibold text-center lg:text-start">
