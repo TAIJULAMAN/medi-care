@@ -4,38 +4,36 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
-import { Doc } from "./Doc";
 
 const Doctors = () => {
-  const { img1, img2, img3, img4, img5,img6 } = Doc();
   const data = [
     {
-      img: img1,
+      img: "/doc1.jpg",
       name: "Dr. Serena Mitchell",
       specialties: "Orthopedic Surgeon",
     },
     {
-      img: img2,
+      img: "/doc2.jpg",
       name: "Dr. Julian Bennett",
       specialties: "Cardiologist",
     },
     {
-      img: img3,
+      img: "/doc3.jpg",
       name: "Dr. Camila Rodriguez",
       specialties: "Pediatrician",
     },
     {
-      img: img4,
+      img: "/doc4.jpg",
       name: "Dr. Victor Nguyen",
       specialties: "Neurologist",
     },
     {
-      img: img5,
+      img: "/doc5.jpg",
       name: "Dr. Ethan Carter",
       specialties: "Dermatologist",
     },
     {
-      img: img6,
+      img: "/doc6.jpg",
       name: "Dr. Olivia Martinez",
       specialties: "Ophthalmologist",
     },
